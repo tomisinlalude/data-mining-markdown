@@ -26,3 +26,27 @@ To work with collaborators on a Git repository in GitHub, it's important to do t
 ### Things to Note
 - You should always create a new branch from the main/master branch
 - When you create a pull request and your work is approved and merged to the main branch, to continue working on your local computer, **ensure to switch to the main branch first and pull changes**. you can then create another branch from the main branch.
+
+### Extra
+
+Here is how to use equation in Markdown:
+
+To add a math expression as a block, start a new line and *delimit* the expression with two dollar symbols `$$`
+
+**The Cauchy-Schwarz Inequality**
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+Here's how to use inline code in Markdown:
+
+If  `x = 3`, that means `x + 2 = 5`
+
+Here's how to use a code block in Markdown,
+
+You can add an ***optional language identifier*** to enable syntax highlighting in your fenced code block. Syntax highlighting changes the color and style of source code to make it easier to read. For example, to syntax highlight JavaScript code
+
+```javascript
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
