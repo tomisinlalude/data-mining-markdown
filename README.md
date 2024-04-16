@@ -3,17 +3,16 @@
 Learning Git has been interesting. I'm grateful to this resource [Git Minesweeper](https://profy.dev/project/github-minesweeper#start-project) that has helped me navigate my way around using Git in a fun and practical way.
 
 ### Git Commands
-Below are the Git commands I have learnt so far and what they do.
+Below are some of the Git commands I have learnt so far and what they do.
 
-```
-| Command      | Description |
-| ----------- | ----------- |
+| Command         | Description                                                                                        |
+| -----------     | -----------                                                                                        |
 | git branch      | Shows all the existing branches in the repository and highlights the current branch in color       |
-| git checkout   | Switch to a new or existing branch       |
-| git add    | Stages all changes made to a file or files        |
-| git commit | Commits all changes made with a commit hash           |
-| git log   | Logs changes made by displaying the name of the commit and who made the commit |
-```
+| git checkout    | Switch to a new or existing branch                                                                 |
+| git add         | Stages all changes made to a file or files                                                         |
+| git commit      | Commits all changes made with a commit hash                                                        |
+| git log         | Logs changes made by displaying the name of the commit and who made the commit                     |
+
 ### Collaborate on a Git repository
 To work with collaborators on a Git repository in GitHub, it's important to do the following in this order:
 1. Clone the existing GitHub repository to your local computer
